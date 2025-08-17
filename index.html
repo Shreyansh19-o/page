@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Shreyansh Nayal — Certificates</title>
+  <style>
+    :root{
+      --bg:#0b0f19; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --accent:#60a5fa; --border:#1f2937;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;
+      background:linear-gradient(180deg,#0b0f19 0%, #0e1424 100%); color:var(--text);
+    }
+    header{padding:32px 20px 8px; max-width:1100px; margin:0 auto;}
+    h1{margin:0 0 6px 0; font-size:28px}
+    .meta a{color:var(--accent); text-decoration:none; margin-right:14px}
+    .meta{color:var(--muted); margin-bottom:22px}
+    main{max-width:1100px; margin:0 auto; padding:10px 20px 60px}
+    .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:18px}
+    .card{background:var(--card); border:1px solid var(--border); border-radius:14px; overflow:hidden; display:flex; flex-direction:column}
+    .thumb{width:100%; aspect-ratio:16/10; object-fit:cover; background:#0b1222}
+    .pad{padding:14px 14px 16px}
+    h3{margin:0 0 6px 0; font-size:18px}
+    .issuer{font-size:13px; color:var(--muted); margin-bottom:12px}
+    .btns{display:flex; gap:10px; flex-wrap:wrap}
+    .btn{padding:8px 12px; font-size:14px; border-radius:9px; border:1px solid var(--border); background:#0c1324; color:var(--text); text-decoration:none}
+    .btn.primary{background:#1c64ec; border-color:#1c64ec}
+    footer{max-width:1100px; margin:28px auto 60px; color:var(--muted); padding:0 20px; font-size:14px}
+    .note{margin-top:6px}
+    @media (prefers-color-scheme: light){
+      :root{--bg:#f7fafc; --card:#ffffff; --text:#0f172a; --muted:#475569; --accent:#0f62fe; --border:#e5e7eb;}
+      body{background:#f7fafc}
+      .btn{background:#f8fafc}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Certificates</h1>
+    <div class="meta">
+      <strong>Shreyansh Nayal</strong> •
+      <a href="mailto:Shreyansh19nayal@gmail.com">Email</a>
+      <a href="https://github.com/Shreyansh19-o" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/shreyansh-nayal-529ba3370" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid">
+
+
+
+      <!-- Great Learning — Python Fundamentals (image you shared) -->
+      <article class="card">
+        <img class="thumb" src="assets/great-learning-python.jpg" alt="Python Fundamentals for Beginners certificate"/>
+        <div class="pad">
+          <h3>Python Fundamentals for Beginners</h3>
+          <div class="issuer">Great Learning Academy • Dec 2023</div>
+          <div class="btns">
+            <a class="btn" href="assets/great-learning-python.jpg" target="_blank" rel="noopener">Open Image</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- SkillMasters — Machine Learning (image you shared) -->
+      <article class="card">
+        <img class="thumb" src="assets/skillmasters-ml.jpg" alt="Machine Learning certificate"/>
+        <div class="pad">
+          <h3>Machine Learning</h3>
+          <div class="issuer">SkillMasters • Issued 27/10/2024 • ID: 2345540683</div>
+          <div class="btns">
+            <a class="btn" href="assets/skillmasters-ml.jpg" target="_blank" rel="noopener">Open Image</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Simplilearn SkillUp — Java (image you shared) -->
+      <article class="card">
+        <img class="thumb" src="assets/simplilearn-java.jpg" alt="Java Programming for Beginners certificate"/>
+        <div class="pad">
+          <h3>Java Programming for Beginners</h3>
+          <div class="issuer">Simplilearn SkillUp • 26 Dec 2022 • Cert No. 21041623</div>
+          <div class="btns">
+            <a class="btn" href="assets/simplilearn-java.jpg" target="_blank" rel="noopener">Open Image</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Coursera / DeepLearning.AI — NN & Deep Learning (image you shared) -->
+      <article class="card">
+        <img class="thumb" src="assets/coursera-deeplearningai-nndl.jpg" alt="Neural Networks and Deep Learning certificate"/>
+        <div class="pad">
+          <h3>Neural Networks and Deep Learning</h3>
+          <div class="issuer">DeepLearning.AI (Coursera) • 29/03/2025</div>
+          <div class="btns">
+            <a class="btn" href="assets/coursera-deeplearningai-nndl.jpg" target="_blank" rel="noopener">Open Image</a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    Add new certificates by duplicating any card and updating the title, issuer, links, and image file in assets/.
+    <div class="note">If your filenames differ, just change the src/href paths to match.</div>
+  </footer>
+</body>
+</html>
